@@ -36,6 +36,8 @@
 		D66215951EF4CFD200DD4FB7 /* TBVAssetsManagerTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = D662157C1EF4CFD200DD4FB7 /* TBVAssetsManagerTypes.h */; };
 		D66215961EF4CFD200DD4FB7 /* TBVAssetsManagerTypes.m in Sources */ = {isa = PBXBuildFile; fileRef = D662157D1EF4CFD200DD4FB7 /* TBVAssetsManagerTypes.m */; };
 		D66215981EF4D46B00DD4FB7 /* TBVAssetsManager.h in Headers */ = {isa = PBXBuildFile; fileRef = D66215971EF4D46B00DD4FB7 /* TBVAssetsManager.h */; };
+		D662162E1EF5143800DD4FB7 /* TBVAssetsReformer.h in Headers */ = {isa = PBXBuildFile; fileRef = D662162C1EF5143800DD4FB7 /* TBVAssetsReformer.h */; };
+		D662162F1EF5143800DD4FB7 /* TBVAssetsReformer.m in Sources */ = {isa = PBXBuildFile; fileRef = D662162D1EF5143800DD4FB7 /* TBVAssetsReformer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,6 +85,8 @@
 		D662157C1EF4CFD200DD4FB7 /* TBVAssetsManagerTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBVAssetsManagerTypes.h; sourceTree = "<group>"; };
 		D662157D1EF4CFD200DD4FB7 /* TBVAssetsManagerTypes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBVAssetsManagerTypes.m; sourceTree = "<group>"; };
 		D66215971EF4D46B00DD4FB7 /* TBVAssetsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBVAssetsManager.h; sourceTree = "<group>"; };
+		D662162C1EF5143800DD4FB7 /* TBVAssetsReformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBVAssetsReformer.h; sourceTree = "<group>"; };
+		D662162D1EF5143800DD4FB7 /* TBVAssetsReformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBVAssetsReformer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -166,6 +170,7 @@
 				D66215971EF4D46B00DD4FB7 /* TBVAssetsManager.h */,
 				D662157C1EF4CFD200DD4FB7 /* TBVAssetsManagerTypes.h */,
 				D662157D1EF4CFD200DD4FB7 /* TBVAssetsManagerTypes.m */,
+				D662162B1EF5143800DD4FB7 /* Refomer */,
 				D66215621EF4CFD200DD4FB7 /* Categories */,
 				D662156F1EF4CFD200DD4FB7 /* Managers */,
 				D66215771EF4CFD200DD4FB7 /* Models */,
@@ -217,6 +222,15 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
+		D662162B1EF5143800DD4FB7 /* Refomer */ = {
+			isa = PBXGroup;
+			children = (
+				D662162C1EF5143800DD4FB7 /* TBVAssetsReformer.h */,
+				D662162D1EF5143800DD4FB7 /* TBVAssetsReformer.m */,
+			);
+			path = Refomer;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -234,6 +248,7 @@
 				D66215951EF4CFD200DD4FB7 /* TBVAssetsManagerTypes.h in Headers */,
 				D662158A1EF4CFD200DD4FB7 /* TBVAssetsLibrary.h in Headers */,
 				D662158F1EF4CFD200DD4FB7 /* TBVCachingImageManager.h in Headers */,
+				D662162E1EF5143800DD4FB7 /* TBVAssetsReformer.h in Headers */,
 				D662158D1EF4CFD200DD4FB7 /* TBVAssetsPickerManager.h in Headers */,
 				D66215911EF4CFD200DD4FB7 /* TBVAsset.h in Headers */,
 				D66215861EF4CFD200DD4FB7 /* PHPhotoLibrary+TBVAssetsManager.h in Headers */,
@@ -377,6 +392,7 @@
 				D662157F1EF4CFD200DD4FB7 /* ALAssetsFilter+TBVAssetsManager.m in Sources */,
 				D66215941EF4CFD200DD4FB7 /* TBVCollection.m in Sources */,
 				D66215921EF4CFD200DD4FB7 /* TBVAsset.m in Sources */,
+				D662162F1EF5143800DD4FB7 /* TBVAssetsReformer.m in Sources */,
 				D66215901EF4CFD200DD4FB7 /* TBVCachingImageManager.m in Sources */,
 				D662158B1EF4CFD200DD4FB7 /* TBVAssetsLibrary.m in Sources */,
 				D66215891EF4CFD200DD4FB7 /* TBVAssetsPickerManager+Authorization.m in Sources */,
