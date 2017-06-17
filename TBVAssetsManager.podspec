@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = 'TBVAssetsManager'
-  s.version = '0.1.0'
+  s.version = '1.0.0'
   s.summary = 'Assets manager for ios7 and ios7+.'
   s.homepage = 'https://github.com/tobevoid/TBVAssetsManager'
   s.documentation_url = 'https://github.com/tobevoid/TBVAssetsManager'
